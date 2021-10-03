@@ -1,0 +1,79 @@
+@import "variable";
+/*****************Platform********************/
+.platform{
+  background: $background;
+  .platform-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .platform-text{
+
+      .platform-text__sale{
+        display: inline-block;
+
+        font-size: 16px;
+        font-weight: 400;
+
+        line-height: calc(28 / 16 * 100%);
+
+        border-radius: 32px;
+
+        color: white;
+        background: rgba(255, 255, 255, 0.1);
+
+        padding: 4px 11px 4px 4px;
+        margin: 0 0 24px 0;
+
+        .platform-text__span{
+          font-size: 16px;
+          font-weight: 500;
+
+          line-height: calc(24 / 16 * 100%);
+
+          color: $background;
+          background: white;
+
+          margin: 0 16px 0 0;
+          padding: 4px 16px;
+
+          border-radius: 32px;
+        }
+      }
+      .platform__title{
+        font-size: 64px;
+        font-weight: 700;
+
+        line-height: calc(76 / 64 * 100%);
+
+        color: white;
+
+        margin: 0 0 24px 0;
+      }
+      .platform__text{
+        font-size: 16px;
+        font-weight: 400;
+
+        line-height: calc(28 / 16 * 100%);
+
+        color: white;
+
+        margin: 0 0 32px 0;
+      }
+      .platform__button{
+        font-size: 18px;
+        font-weight: 500;
+
+        line-height: calc(28 / 18 * 100%);
+
+        color: white;
+        background: $buttonColor;
+
+        padding: 16px 24px;
+
+        border: none;
+        border-radius: 32px;
+      }
+    }
+  }
+}

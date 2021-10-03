@@ -1,0 +1,40 @@
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background: #FAFAFA;
+  font-family: Rubik, sans-serif;
+}
+
+div, p, a, img, form, button {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, li {
+  display: block;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.wrapper{
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.container{
+  max-width: 1202px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: content-box;
+}

@@ -173,17 +173,19 @@
 
 
     .salary-input__hash{
-      font-size: 20px;
-      font-weight: 400;
-
-      line-height: calc(30 / 20 * 100%);
-
-      color: black;
-
       padding: 0 214px 0 0;
 
       border: none;
       border-bottom: 1px solid rgba(224, 224, 224, 1);
+
+      &::placeholder{
+        font-size: 20px;
+        font-weight: 400;
+
+        line-height: calc(30 / 20 * 100%);
+
+        color: black;
+      }
     }
     .salary__select{
       padding: 0 135px 8px 0;
@@ -265,7 +267,7 @@
 /**************Cryptocurrency******************/
 .crypto-header{
   text-align: center;
-  padding: 100px 0 0 0;
+  padding: 100px 0 64px 0;
 
   .crypto-title{
     font-size: 40px;
@@ -278,7 +280,10 @@
 }
 .crypto-body{
   display: flex;
-  margin: 0 -22.5;
+
+  margin: 0 -22.5px;
+  padding: 0 0 100px 0;
+
   .crypto-column{
     flex: 0 1 33.333%;
     padding: 0 22.5px;
